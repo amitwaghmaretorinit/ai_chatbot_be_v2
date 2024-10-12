@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "Is anyone there?", "Good day", "Hi there", "Howdy"],
+      "responses": ["Hello!", "Hi!", "Greetings!", "How can I assist you?", "Hey! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "intent": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving", "Have a nice day", "Talk to you later", "See ya", "Cya"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!", "Have a great day!", "Bye! Come back soon!", "Cya later!"]
+    },
+    {
+      "intent": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "I appreciate it", "Much appreciated", "Thank you so much"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem!", "Glad I could help!", "You're most welcome!"]
+    },
+    {
+      "intent": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Are you open today?", "What time do you close?", "What time do you open?"],
+      "responses": ["We are open from 9am to 5pm every day.", "Our hours are 9am to 5pm, Monday to Friday.", "We are closed on weekends."]
+    },
+    {
+      "intent": "payments",
+      "patterns": ["Do you accept credit cards?", "Can I pay with PayPal?", "How can I make a payment?", "What payment methods do you accept?"],
+      "responses": ["We accept all major credit cards, PayPal, and Apple Pay.", "You can pay using credit cards, PayPal, or Apple Pay.", "Our accepted payment methods include credit cards and PayPal."]
+    },
+    {
+      "intent": "products",
+      "patterns": ["What products do you offer?", "Do you sell electronics?", "What kind of items do you sell?", "Can I buy gadgets here?", "What do you have in stock?"],
+      "responses": ["We offer a variety of products including electronics, home appliances, and more.", "Our store has a wide range of gadgets, electronics, and other products.", "You can browse our electronics section for the latest gadgets."]
+    },
+    {
+      "intent": "shipping",
+      "patterns": ["Do you ship internationally?", "How long does shipping take?", "What are your shipping options?", "Can I track my order?", "Is shipping free?"],
+      "responses": ["We offer international shipping. Delivery times depend on your location.", "Shipping usually takes 3-5 business days.", "You can track your order via the shipping confirmation email.", "Shipping is free for orders over $50."]
+    },
+    {
+      "intent": "refunds",
+      "patterns": ["What is your return policy?", "Can I get a refund?", "How do I return a product?", "Do you offer refunds?", "Can I return something I bought?"],
+      "responses": ["We have a 30-day return policy. Contact support to start the return process.", "Refunds are processed within 7 days of receiving the returned item.", "You can return items within 30 days for a full refund.", "We offer refunds for products returned within 30 days in original condition."]
+    },
+    {
+      "intent": "support",
+      "patterns": ["How can I contact support?", "I need help with my order", "Can you help me?", "How do I get customer support?", "Is there a phone number I can call?"],
+      "responses": ["You can contact our support team at support@example.com or call (123) 456-7890.", "Our support team is available via email at support@example.com.", "For assistance, please email support@example.com."]
+    },
+    {
+      "intent": "jokes",
+      "patterns": ["Tell me a joke", "I want to hear something funny", "Make me laugh", "Can you tell me a joke?"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you get when you cross a snowman and a vampire? Frostbite!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+    },
+    {
+      "intent": "weather",
+      "patterns": ["What's the weather like?", "Is it raining?", "How's the weather today?", "Will it be sunny tomorrow?", "What's the forecast for today?"],
+      "responses": ["I'm sorry, I can't check the weather right now. Please use a weather app.", "I recommend checking your local weather app for real-time updates.", "It's always sunny when you're around! But check your phone for accurate weather updates."]
+    },
+    {
+      "intent": "appointment",
+      "patterns": ["Can I schedule an appointment?", "I need to book a meeting", "How can I make an appointment?", "I want to arrange a meeting"],
+      "responses": ["You can schedule an appointment online.", "Let me help you book a meeting.", "Please choose a time on our website to schedule an appointment."]
+    },
+    {
+      "intent": "location",
+      "patterns": ["Where are you located?", "Can you tell me your address?", "What's your office location?", "How do I find you?"],
+      "responses": ["We are located at 123 Main Street.", "Our office is at 45 Market Road.", "You can find us at 789 Elm Street."]
+    },
+    {
+      "intent": "services",
+      "patterns": ["What services do you provide?", "What kind of help can I get here?", "Do you provide consultation services?"],
+      "responses": ["We offer consulting, project management, and product development services.", "You can get help with business strategy, marketing, and customer engagement."]
+    },
+    {
+      "intent": "discounts",
+      "patterns": ["Do you offer discounts?", "Are there any promotions?", "Can I get a discount?", "Are there any current deals?"],
+      "responses": ["Yes, we offer a 10% discount this week!", "We have seasonal promotions running.", "Use code 'WELCOME15' for a discount on your first order."]
+    },
+    {
+      "intent": "complaints",
+      "patterns": ["I want to file a complaint", "How do I report an issue?", "I’m not happy with the service", "Where can I lodge a complaint?"],
+      "responses": ["We’re sorry to hear that. Please email us at complaints@example.com.", "You can report your issue through our complaints page.", "Contact our support team, and we’ll address your concerns."]
+    },
+    {
+      "intent": "shipping",
+      "patterns": ["Do you ship internationally?", "How long does shipping take?", "What are your shipping options?", "Can I track my order?", "Is shipping free?"],
+      "responses": ["We offer international shipping.", "Shipping usually takes 3-5 business days.", "You can track your order via the shipping confirmation email.", "Shipping is free for orders over $50."]
+    }
+  ]
+}
