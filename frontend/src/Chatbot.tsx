@@ -23,20 +23,23 @@ const Chatbot: React.FC = () => {
   return (
     <div>
       <h1>Chatbot</h1>
-      <div style={{ border: '1px solid #ccc', padding: '10px', height: '400px', overflowY: 'scroll' }}>
+      <div style={{ border: '1px solid #ccc', padding: '10px', height: '400px', overflowY: 'scroll',width:500 }}>
         {chatHistory.map((chat, index) => (
           <div key={index} style={{ textAlign: chat.sender === 'user' ? 'right' : 'left' }}>
             <strong>{chat.sender === 'user' ? 'You' : 'Bot'}:</strong> {chat.message}
           </div>
         ))}
       </div>
-      <input
+       <div style={{display:'flex',marginTop:20}}>
+       <input
         type="text"
         value={userMessage}
         onChange={(e) => setUserMessage(e.target.value)}
         placeholder="Type your message..."
+        style={{height:40,flex:1,marginRight:10}}
       />
       <button onClick={handleMessageSend}>Send</button>
+       </div>
     </div>
   );
 };
